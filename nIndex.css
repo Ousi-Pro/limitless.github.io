@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(147, 190, 217);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.container{
+    height: 30vh;
+    width: 60vw;
+    border: solid rgb(124, 115, 239) 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5%;
+}
+#myText , #times{
+    border: solid 1px transparent;
+    border-radius: 10px;
+    height: 15%;
+}
+#go{
+    height: 45px;
+    width: 50px;
+    border: none;
+    background-color: #248eb4;
+    color: white;
+    font-weight: 700;
+    font-size: 130%;
+    border-radius: 7px;
+}
+#go:active{
+    background-color: #7ec0d8;
+}
+#copy{
+    background-color: #6584e7;
+    color: white;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+#copy:active{
+    background-color: #8599de;
+}
+#output{
+    border: solid 1px rgb(48, 53, 146);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#outText{
+    flex-grow: 1;
+    width: auto;
+    height: 100%;
+    border: solid 1px black;
+    overflow: hidden;
+}
+#end{
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
