@@ -33,6 +33,7 @@ h1{
     font-weight: 700;
     font-size: 130%;
     border-radius: 7px;
+    align-self: flex-end;
 }
 #go:active{
     background-color: #7ec0d8;
@@ -42,21 +43,27 @@ h1{
     color: white;
     font-weight: bold;
     border: 1px solid transparent;
+    flex-grow: 1;
+    height: 100%;
 }
 #copy:active{
     background-color: #8599de;
 }
 #output{
+    height: 50px;
     border: solid 1px rgb(48, 53, 146);
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 #outText{
     flex-grow: 1;
     width: auto;
-    height: 100%;
+    height: auto;
     border: solid 1px black;
     overflow: hidden;
 }
